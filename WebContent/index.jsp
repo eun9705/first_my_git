@@ -9,20 +9,23 @@
 	</head>
 	<body>
 		<h3>로그인 페이지</h3>
-		<form>
-		<table>
-			<tr>
-				<td>ID</td>
-				<td><input type="text" name="userId"/></td>
-			</tr>
-			<tr>
-				<td>PW</td>
-				<td><input type="password" name="userPw"/></td>
-			</tr>
-			<tr>
-				<td colspan="2"></td>
-			</tr>
-		</table>
+		<form action="">
+			<table>
+				<tr>
+					<td>ID</td>
+					<td><input type="text" name="userId"/></td>
+				</tr>
+				<tr>
+					<td>PW</td>
+					<td><input type="password" name="userPw"/></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<button>로그인</button>
+					</td>
+				</tr>
+			</table>
+		</form>
 	</body>
 	<script></script>
 </html>
